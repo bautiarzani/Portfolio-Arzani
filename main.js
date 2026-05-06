@@ -29,8 +29,7 @@ if (cursor && follower) {
 }
 
 /* ===== NAVIGATION ===== */
-const nav        = document.getElementById('nav');
-const toggle     = document.getElementById('nav-toggle');
+const toggle = document.getElementById('nav-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 
 toggle?.addEventListener('click', () => {
