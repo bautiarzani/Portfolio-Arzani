@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto — Juan Bautista Arzani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">JBA</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about"      class="nav-link">Sobre mí</a></li>
+      <li><a href="index.html#experience" class="nav-link">Experiencia</a></li>
+      <li><a href="index.html#projects"   class="nav-link">Proyectos</a></li>
+      <li><a href="index.html#contact"    class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="index.html#about"      class="mobile-link">Sobre mí</a></li>
+      <li><a href="index.html#experience" class="mobile-link">Experiencia</a></li>
+      <li><a href="index.html#projects"   class="mobile-link">Proyectos</a></li>
+      <li><a href="index.html#contact"    class="mobile-link">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <header class="proj-header">
+    <div class="container">
+      <a href="index.html#projects" class="back-link">← Proyectos</a>
+      <p class="proj-label">UX/UI · Blest Agency</p>
+      <h1 class="proj-title reveal-up">Nombre del Proyecto</h1>
+      <div class="proj-meta reveal-up">
+        <div class="proj-meta-item">
+          Rol
+          <strong>UX/UI Designer</strong>
+        </div>
+        <div class="proj-meta-item">
+          Año
+          <strong>2024</strong>
+        </div>
+        <div class="proj-meta-item">
+          Cliente
+          <strong>Nombre del cliente</strong>
+        </div>
+        <div class="proj-meta-item">
+          Herramientas
+          <strong>Figma · HTML/CSS</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== IMAGEN PRINCIPAL ===== -->
+  <div class="proj-cover">
+    <!-- Reemplazar con: <img src="cover.jpg" alt="Nombre del Proyecto" /> -->
+    <div class="proj-cover-placeholder"></div>
+  </div>
+
+  <!-- ===== CUERPO ===== -->
+  <main class="proj-body">
+    <div class="container">
+      <div class="proj-layout">
+
+        <!-- Sidebar: overview -->
+        <aside class="proj-sidebar reveal-left">
+          <p class="proj-sidebar-label">Overview</p>
+          <p>
+            Descripción concisa del proyecto: qué era, para quién, y cuál era el objetivo principal del diseño.
+          </p>
+        </aside>
+
+        <!-- Contenido principal -->
+        <div class="proj-content">
+
+          <section class="reveal-up">
+            <h2>El desafío</h2>
+            <p>
+              Describí el problema o la necesidad que motivó este proyecto. Cuál era el contexto, qué había que resolver y por qué era importante para el cliente o el usuario.
+            </p>
+            <p>
+              Si tiene sentido, podés agregar más contexto sobre el usuario objetivo, las restricciones del proyecto o los objetivos de negocio detrás del diseño.
+            </p>
+          </section>
+
+          <section class="reveal-up">
+            <h2>Proceso</h2>
+            <p>
+              Contá cómo abordaste el trabajo: research, definición del problema, exploración de ideas, wireframes, iteraciones con el cliente o el equipo.
+            </p>
+            <!-- Imagen del proceso -->
+            <div class="proj-img ratio-16-9">
+              <!-- <img src="proceso-wireframes.jpg" alt="Wireframes" /> -->
+              <div class="proj-img-placeholder">Wireframes / proceso</div>
+            </div>
+            <p>
+              Segunda etapa del proceso: refinamiento, decisiones de diseño clave, por qué elegiste este camino sobre otras opciones.
+            </p>
+            <!-- Grilla de dos imágenes -->
+            <div class="proj-img-grid">
+              <div class="proj-img ratio-1-1">
+                <div class="proj-img-placeholder">Exploración</div>
+              </div>
+              <div class="proj-img ratio-1-1">
+                <div class="proj-img-placeholder">Iteración</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="reveal-up">
+            <h2>Resultado</h2>
+            <p>
+              Mostrá el resultado final. Cómo quedó el diseño, qué impacto tuvo, qué feedback recibiste. Si hay métricas o datos de mejora, este es el lugar.
+            </p>
+            <div class="proj-img ratio-16-9">
+              <!-- <img src="resultado-final.jpg" alt="Resultado final" /> -->
+              <div class="proj-img-placeholder">Resultado final</div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== NAVEGACIÓN ENTRE PROYECTOS ===== -->
+  <nav class="proj-bottom-nav">
+    <div class="container proj-bottom-nav-inner">
+      <a href="index.html#projects" class="proj-nav-link">← Todos los proyectos</a>
+      <a href="proyecto-02.html"    class="proj-nav-link">Siguiente →</a>
+    </div>
+  </nav>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Juan Bautista Arzani</span>
+      <span>Diseño &amp; desarrollo</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

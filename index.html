@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Bautista Arzani — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Natural gradient background -->
+  <div class="liquid-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">JBA</div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#experience" class="nav-link">Experiencia</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link">Sobre mí</a></li>
+      <li><a href="#experience" class="mobile-link">Experiencia</a></li>
+      <li><a href="#projects" class="mobile-link">Proyectos</a></li>
+      <li><a href="#contact" class="mobile-link">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Buenos Aires, Argentina</p>
+      <h1 class="hero-name reveal-up">
+        <span class="name-line">Juan Bautista</span>
+        <span class="name-line italic">Arzani</span>
+      </h1>
+      <p class="hero-tagline reveal-up">
+        Diseño digital · UX/UI · Producto
+      </p>
+      <div class="hero-cta reveal-up">
+        <a href="#projects" class="btn-primary">Ver proyectos</a>
+        <a href="#contact" class="btn-ghost">Hablemos</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-grid about-grid">
+        <div class="about-text">
+          <span class="section-label reveal-left">01 — Sobre mí</span>
+          <h2 class="section-title reveal-left">
+            Hola, soy<br /><em>Juan Bautista</em>
+          </h2>
+          <div class="about-bio reveal-left">
+            <p>
+              Soy diseñador con una mirada amplia que cruza el diseño, la tecnología y los negocios. Estudio la Licenciatura en Diseño, Tecnología y Negocios — una carrera que me formó para pensar el diseño como herramienta estratégica, no solo estética.
+            </p>
+            <p>
+              Mi trabajo va del UX/UI y la programación web en agencia, al diseño de productos y sistemas en la facultad. Me atrae el espacio donde la forma se encuentra con la función, y donde una buena decisión de diseño tiene impacto real.
+            </p>
+          </div>
+          <div class="skills reveal-left">
+            <span class="skill-tag">UX/UI</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Adobe CC</span>
+            <span class="skill-tag">Diseño de producto</span>
+            <span class="skill-tag">Prototipado</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Research</span>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="photo-frame">
+            <!-- Reemplazar con tu foto: <img src="tu-foto.jpg" alt="Juan Bautista Arzani" /> -->
+            <div class="photo-placeholder">
+              <span>JBA</span>
+            </div>
+            <div class="photo-decoration"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="section-label reveal-up">02 — Experiencia</span>
+      <h2 class="section-title reveal-up">Trayectoria</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Diseñador UX/UI</h3>
+              <span class="timeline-period">2024 — presente</span>
+            </div>
+            <p class="timeline-company">Blest Agency</p>
+            <p class="timeline-desc">
+              Diseño de interfaces y experiencias de usuario para clientes de la agencia. Trabajo en el proceso completo: research, wireframes, prototipado en Figma y handoff con el equipo de desarrollo. También participo en la implementación web de algunas páginas.
+            </p>
+            <div class="timeline-tags">
+              <span>UX/UI</span><span>Figma</span><span>Diseño web</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Diseño de producto</h3>
+              <span class="timeline-period">2022 — presente</span>
+            </div>
+            <p class="timeline-company">Licenciatura en Diseño, Tecnología y Negocios</p>
+            <p class="timeline-desc">
+              Desarrollo de proyectos de diseño de productos físicos y digitales en el marco de la carrera. Metodologías centradas en el usuario, prototipado, investigación y pensamiento sistémico aplicado a problemas reales.
+            </p>
+            <div class="timeline-tags">
+              <span>Diseño de producto</span><span>Investigación</span><span>Prototipado</span><span>Adobe CC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="section-label reveal-up">03 — Proyectos</span>
+      <h2 class="section-title reveal-up">Trabajo selecto</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal-up" data-index="01">
+          <div class="project-image">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">01</span>
+            <h3 class="project-title">UX/UI — Blest Agency</h3>
+            <p class="project-desc">
+              Diseño de experiencia e interfaz para clientes de la agencia. Proceso completo desde el research y la arquitectura de información hasta el prototipo interactivo y la entrega al equipo de desarrollo.
+            </p>
+            <div class="project-tech">
+              <span>UX/UI</span><span>Figma</span><span>Prototipado</span><span>HTML/CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="proyecto-01.html" class="project-link">Ver caso →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-reverse reveal-up" data-index="02">
+          <div class="project-image">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">02</span>
+            <h3 class="project-title">Diseño de producto — Facultad</h3>
+            <p class="project-desc">
+              Proyecto de diseño de producto desarrollado en la Licenciatura en Diseño, Tecnología y Negocios. Investigación de usuario, definición de concepto, prototipado y presentación de la propuesta final.
+            </p>
+            <div class="project-tech">
+              <span>Diseño de producto</span><span>Investigación</span><span>Adobe CC</span>
+            </div>
+            <div class="project-links">
+              <a href="proyecto-02.html" class="project-link">Ver proyecto →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up" data-index="03">
+          <div class="project-image">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-number">03</span>
+            <h3 class="project-title">Diseño web — Interfaz y código</h3>
+            <p class="project-desc">
+              Proyecto donde diseño e implementación se solapan. Diseño de la interfaz en Figma y desarrollo front-end básico, buscando el equilibrio entre la visión estética y la ejecución técnica.
+            </p>
+            <div class="project-tech">
+              <span>Figma</span><span>HTML/CSS</span><span>Diseño visual</span>
+            </div>
+            <div class="project-links">
+              <a href="proyecto-03.html" class="project-link">Ver proyecto →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-contact" id="contact">
+    <div class="container container-narrow">
+      <span class="section-label reveal-up">04 — Contacto</span>
+      <h2 class="section-title contact-title reveal-up">
+        ¿Trabajamos<br /><em>juntos?</em>
+      </h2>
+      <p class="contact-sub reveal-up">
+        Estoy abierto a proyectos de diseño digital, UX/UI y colaboraciones donde el diseño y la tecnología se encuentren.
+      </p>
+      <div class="reveal-up">
+        <div class="contact-glass">
+          <a href="mailto:bautiarzani@gmail.com" class="contact-email">bautiarzani@gmail.com</a>
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/juan-bautista-arzani-8886b1357" target="_blank" class="social-link">LinkedIn</a>
+            <span class="social-sep">·</span>
+            <a href="#" target="_blank" class="social-link">GitHub</a>
+            <span class="social-sep">·</span>
+            <a href="#" target="_blank" class="social-link">Twitter / X</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Juan Bautista Arzani</span>
+      <span>Diseñado &amp; desarrollado con cuidado</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
